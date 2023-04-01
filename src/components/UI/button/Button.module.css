@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+.myBtn {
+  padding: 5px 36px;
+
+  color: #fe4e5a;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 21px;
+
+  border-radius: 1em;
+  border: 1px solid #fe4e5a;
+  cursor: pointer;
+}
+
+.myBtn:hover {
+  color: #ffffff;
+  background: #fe4e5a;
+}
+.myBtn:active {
+  color: #fe4e5a;
+  background: #ffffff;
+}
