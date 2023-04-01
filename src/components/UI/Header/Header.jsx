@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/logo.png";
+import logo from "../img/logo-black.png";
 import Button from "../button/Button";
 import cl from "./Header.module.css";
 
