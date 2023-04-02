@@ -29,6 +29,19 @@
   font-weight: 400;
 }
 
+.footer_2 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer_2 a:hover {
+  color: #fe4e5a;
+}
+
+.footer_2 a:active {
+  color: #000000;
+}
+
 .menu a {
   margin: 25px 67px 0 0;
 
