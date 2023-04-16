@@ -15,7 +15,7 @@
   align-items: center;
 
   height: 82px;
-  background: #fe4e5a;
+  background: var(--red-color);
 }
 .footer_2 {
   padding: 0 140px;
@@ -31,15 +31,15 @@
 
 .footer_2 a {
   text-decoration: none;
-  color: #000000;
+  color: var(--black-color);
 }
 
 .footer_2 a:hover {
-  color: #fe4e5a;
+  color: var(--red-color);
 }
 
 .footer_2 a:active {
-  color: #000000;
+  color: var(--black-color);
 }
 
 .menu a {
@@ -49,7 +49,7 @@
   font-weight: 400;
   font-size: 21px;
 
-  color: #ffffff;
+  color: var(--white-color);
   text-decoration: none;
 }
 

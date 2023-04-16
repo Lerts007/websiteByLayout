@@ -3,21 +3,21 @@
 .myBtn {
   padding: 5px 36px;
 
-  color: #fe4e5a;
+  color: var(--red-color);
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 21px;
 
   border-radius: 1em;
-  border: 1px solid #fe4e5a;
+  border: 1px solid var(--red-color);
   cursor: pointer;
 }
 
 .myBtn:hover {
   color: #ffffff;
-  background: #fe4e5a;
+  background: var(--red-color);
 }
 .myBtn:active {
-  color: #fe4e5a;
-  background: #ffffff;
+  color: var(--red-color);
+  background: var(--white-color);
 }

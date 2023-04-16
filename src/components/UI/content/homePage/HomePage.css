@@ -5,47 +5,47 @@
   padding: 0 140px;
 }
 
-.section_1 {
+.content__section1 {
   height: calc(100vh - 194px);
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
-.section_1_info {
+.content__section1-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.section_1_info div {
+.scontent__section1-info div {
   width: 50%;
 }
 
-.section_1_info img {
+.content__section1-info img {
   max-width: 804px;
   max-height: 756px;
   margin-left: 86px;
 }
 
-.section_1_info p:nth-child(1) {
+.content__section1-info p:nth-child(1) {
   font-family: "Open Sans";
   font-size: 21px;
   font-weight: 700;
 }
 
-.section_1_info h3 {
+.content__section1-info h3 {
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 64px;
 }
-.section_1_info p:nth-child(3) {
+.content__section1-info p:nth-child(3) {
   font-family: "Open Sans";
   font-size: 24px;
   font-weight: 400;
 }
 
-.section_2 {
+.content__section2 {
   margin-top: 160px;
   height: calc(100vh - 194px);
   display: flex;
@@ -59,13 +59,13 @@
   font-weight: 700;
 }
 
-.section_2_info {
+.content__section2-info {
   margin-top: 90px;
 
   display: flex;
   justify-content: space-between;
 }
-.section_2_info div {
+.content__section2-info div {
   padding: 90px 38px 0 38px;
   width: 478px;
   height: 513px;
@@ -74,16 +74,16 @@
   flex-direction: column;
   align-items: center;
 
-  background: #f8cbce;
+  background: var(--lighterRed-color);
   border-radius: 50px;
 }
 
-.section_2_info img {
+.content__section2-info img {
   width: 110px;
   height: 110px;
 }
 
-.section_2_info h4 {
+.content__section2-info h4 {
   height: 74px;
   margin-top: 28px;
   font-family: "Open Sans";
@@ -92,18 +92,18 @@
   text-align: center;
 }
 
-.section_2_info p {
+.content__section2-info p {
   margin-top: 6px;
   font-family: "Open Sans";
   font-size: 21px;
   font-weight: 400;
 }
 
-.section_2_info div:nth-child(2) {
+.content__section2-info div:nth-child(2) {
   margin: 0 103px 0 103px;
 }
 
-.arrow {
+.content__section1-arrow {
   width: 91px;
   height: 91px;
 }

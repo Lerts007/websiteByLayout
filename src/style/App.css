@@ -12,3 +12,14 @@ body {
 .Home {
   height: calc(100% - 194px);
 }
+
+:root {
+  --red-color: #fe4e5a;
+  --lightRed-color: #f38086;
+  --lighterRed-color: #f8cbce;
+  --gray-color: #455a64;
+  --darkGray-color: #263238;
+  --veryLight-color: #fafafa;
+  --black-color: #000;
+  --white-color: #fff;
+}

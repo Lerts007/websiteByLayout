@@ -1,16 +1,16 @@
 import React from "react";
-import down_arrow from "../img/down-arrow 2.png";
-import installa from "../img/Installa.gif";
-import content_1 from "../img/content 1.png";
-import seo from "../img/seo.png";
-import research from "../img/research.png";
+import down_arrow from "../../img/down-arrow.svg";
+import installa from "../../img/Installa.gif";
+import content_1 from "../../img/content.svg";
+import seo from "../../img/seo.svg";
+import research from "../../img/research.svg";
 import "./HomePage.css";
 
 const HomePage = () => {
   return (
     <div className="content">
-      <div className="section_1">
-        <div className="section_1_info">
+      <div className="content__section1">
+        <div className="content__section1-info">
           <div>
             <p>DIGITAL MARKETING AGENCY</p>
             <h3>We Build Your Digital Campaign Performance</h3>
@@ -20,11 +20,15 @@ const HomePage = () => {
           </div>
           <img src={installa} />
         </div>
-        <img className="arrow" src={down_arrow} alt="Стрелка вниз" />
+        <img
+          className="content__section1-arrow"
+          src={down_arrow}
+          alt="Стрелка вниз"
+        />
       </div>
-      <div className="section_2 h3">
+      <div className="content__section2 h3">
         <h3>Services</h3>
-        <div className="section_2_info">
+        <div className="content__section2-info">
           <div>
             <img src={research} />
             <h4>User & Audience Incsights Analysis</h4>
