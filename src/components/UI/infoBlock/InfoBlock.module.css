@@ -1,0 +1,28 @@
+.block {
+  padding: 90px 38px;
+
+  display: grid;
+  grid-template-rows: 112px 102px 115px;
+
+  background: var(--lighterRed-color);
+  border-radius: 50px;
+}
+
+.img {
+  margin: 0 auto;
+}
+
+.name {
+  margin-top: 28px;
+  font-family: "Open Sans";
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text {
+  margin-top: 6px;
+  font-family: "Open Sans";
+  font-size: 21px;
+  font-weight: 400;
+}
