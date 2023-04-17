@@ -5,7 +5,7 @@ import cl from "./Footer.module.css";
 const Footer = () => {
   return (
     <div className={cl.footer}>
-      <div className={cl.footer_1}>
+      <div className={cl.footer1}>
         <img src={logo} alt="iNSTALLA" className={cl.img} />
         <div className={cl.menu}>
           <a href="/">Home</a>
@@ -14,7 +14,7 @@ const Footer = () => {
           <a href="Careers">Careers</a>
         </div>
       </div>
-      <div className={cl.footer_2}>
+      <div className={cl.footer2}>
         <p>
           © Copyright 2021 installamarketing.com – All Rights Reserved | The
           Website Is Owned And Operated By Installa Ltd.

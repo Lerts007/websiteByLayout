@@ -5,9 +5,13 @@
   height: 114px;
 
   box-shadow: 0px -4px 4px rgba(232, 80, 91, 0.25);
+
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
 }
 
-.footer_1 {
+.footer1 {
   padding: 0 140px;
 
   display: flex;
@@ -17,44 +21,32 @@
   height: 82px;
   background: var(--red-color);
 }
-.footer_2 {
+.footer2 {
   padding: 0 140px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  font-family: "Open Sans";
-  font-size: 12px;
-  font-weight: 400;
 }
 
-.footer_2 a {
+.footer2 a {
   text-decoration: none;
   color: var(--black-color);
 }
 
-.footer_2 a:hover {
+.footer2 a:hover {
   color: var(--red-color);
 }
 
-.footer_2 a:active {
+.footer2 a:active {
   color: var(--black-color);
 }
 
 .menu a {
   margin: 25px 67px 0 0;
 
-  font-family: "Open Sans";
-  font-weight: 400;
   font-size: 21px;
 
   color: var(--white-color);
   text-decoration: none;
-}
-
-.img {
-  max-width: 100%;
-  max-height: 100%;
-  padding: 18px 0;
 }
