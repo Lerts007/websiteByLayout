@@ -1,5 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
+.h3 {
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-weight: 700;
+
+  text-align: center;
+}
+
+.h4 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+}
+
 .content {
   width: 100%;
   padding: 0 140px;
@@ -54,11 +75,6 @@
   align-items: center;
 }
 
-.content__section2 h3 {
-  font-family: "Open Sans";
-  font-size: 50px;
-  font-weight: 700;
-}
 .content__section2-info {
   margin-top: 90px;
 
@@ -70,4 +86,64 @@
 .content__section1-arrow {
   width: 91px;
   height: 91px;
+}
+
+.content__section3 {
+  margin-top: 412px;
+}
+
+.content__section3-info,
+.content__section4-info {
+  margin-top: 144px;
+}
+
+.content__section3-info-text {
+  margin-top: 122px;
+  margin-left: 146px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.content__section3-info-text-h4 {
+  width: 100%;
+}
+
+.content__section3-info-text-p {
+  margin-top: 14px;
+  margin-bottom: 102px;
+}
+
+.content__section3-info-img {
+  max-width: 820px;
+  max-height: 547px;
+}
+.content__section4 {
+  margin-top: 322px;
+}
+
+.content__section4-info {
+  margin-top: 222px;
+}
+
+.content__section4-info-text {
+  margin-top: 52px;
+}
+
+.content__section4-info-text-p {
+  margin-top: 10px;
+  margin-bottom: 98px;
+}
+
+.content__section4-info-text-p br {
+}
+
+.content__section4-img {
+  max-width: 808px;
+  max-height: 464px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
 }
