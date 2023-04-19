@@ -1,4 +1,4 @@
-.block {
+.infoBlock {
   padding: 90px 38px;
 
   display: grid;
@@ -8,11 +8,11 @@
   border-radius: 50px;
 }
 
-.img {
+.imgInfo {
   margin: 0 auto;
 }
 
-.name {
+.nameInfo {
   margin-top: 28px;
   font-family: "Open Sans";
   font-size: 27px;
@@ -20,7 +20,7 @@
   text-align: center;
 }
 
-.text {
+.textInfo {
   margin-top: 6px;
   font-family: "Open Sans";
   font-size: 21px;

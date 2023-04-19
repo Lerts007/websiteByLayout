@@ -120,6 +120,9 @@
 }
 .content__section4 {
   margin-top: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content__section4-info {
@@ -143,7 +146,31 @@
   max-height: 464px;
 }
 
+.content__section4-arrow {
+  margin-top: 12px;
+}
+
 .info {
   display: flex;
   justify-content: space-between;
+}
+
+.content__section5 {
+  margin-top: 198px;
+}
+.content__section5-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 128px;
+  row-gap: 142px;
+}
+
+.content__section5 .infoBlock {
+  padding: 34px 96px;
+
+  grid-template-rows: 112px 40px 115px;
+}
+.content__section5 .nameInfo {
+  margin-top: 0;
 }

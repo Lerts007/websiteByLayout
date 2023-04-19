@@ -1,12 +1,16 @@
 import React from "react";
 import Button from "../components/UI/button/Button";
-import down_arrow from "../img/down-arrow.svg";
-import installa from "../img/Installa.gif";
+import concept from "../img/concept.svg";
 import content from "../img/content.svg";
-import seo from "../img/seo.svg";
-import research from "../img/research.svg";
+import creaivity from "../img/creativity.svg";
+import down_arrow from "../img/down-arrow.svg";
 import section3 from "../img/Installa_section3.gif";
 import section4 from "../img/Installa_section4.gif";
+import installa from "../img/Installa.gif";
+import management from "../img/management.svg";
+import monitor from "../img/monitor.svg";
+import research from "../img/research.svg";
+import seo from "../img/seo.svg";
 import "../style/Home.css";
 import InfoBlock from "../components/UI/infoBlock/InfoBlock";
 
@@ -103,6 +107,43 @@ const Home = () => {
             <Button value="More about us" />
           </div>
           <img className="content__section4-img" src={section4} alt="" />
+        </div>
+        <img
+          className="content__section4-arrow"
+          src={down_arrow}
+          alt="Стрелка вниз"
+        />
+      </div>
+      <div className="content__section5">
+        <div className="content__section5-info">
+          <InfoBlock
+            img={concept}
+            name={"Clear Concepts"}
+            text={
+              "In terms of our strategic business planning, we possess a clear view on how to structure our marketing campaigns, as we heavily rely on in-depth research and analysis."
+            }
+          />
+          <InfoBlock
+            img={creaivity}
+            name={"Innovative Technology"}
+            text={
+              "We utilize a unique approach when it comes to keyword research, grouping, as well as discovery. We conduct keyword analysis, considering the intent of searchers and use that to your advantage."
+            }
+          />
+          <InfoBlock
+            img={monitor}
+            name={"In-depth Analysis"}
+            text={
+              "We perform extensive research in order to improve or adjust targeting techniques, making sure we translate those efforts throughout all advertising platforms your business makes use of."
+            }
+          />
+          <InfoBlock
+            img={management}
+            name={"Performance Enhancement"}
+            text={
+              "We help you breakdown your campaign initiatives and narrow down your targeting towards the people who actively clicking on your ads – we provide filtering by gender, age, placement, and device."
+            }
+          />
         </div>
       </div>
     </div>

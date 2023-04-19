@@ -1,12 +1,12 @@
 import React from "react";
-import cl from "./InfoBlock.module.css";
+import "./InfoBlock.css";
 
 const InfoBlock = (props) => {
   return (
-    <div className={cl.block}>
-      <img src={props.img} className={cl.img} />
-      <h4 className={cl.name}>{props.name}</h4>
-      <p className={cl.text}>{props.text}</p>
+    <div className="infoBlock">
+      <img className="imgInfo" src={props.img} />
+      <h4 className="nameInfo">{props.name}</h4>
+      <p className="textInfo">{props.text}</p>
     </div>
   );
 };
