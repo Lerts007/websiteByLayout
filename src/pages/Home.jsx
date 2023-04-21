@@ -6,6 +6,7 @@ import creaivity from "../img/creativity.svg";
 import down_arrow from "../img/down-arrow.svg";
 import section3 from "../img/Installa_section3.gif";
 import section4 from "../img/Installa_section4.gif";
+import section6 from "../img/Installa_section6.png";
 import installa from "../img/Installa.gif";
 import management from "../img/management.svg";
 import monitor from "../img/monitor.svg";
@@ -145,6 +146,17 @@ const Home = () => {
             }
           />
         </div>
+      </div>
+      <div className="content__section6">
+        <h3 className="content__section6-h3 h3">
+          Get Your Campaign Performance on Another Level!
+        </h3>
+        <p className="content__section6-p">
+          Further develop your successful online presence and scale up your
+          business.
+        </p>
+        <Button value="Get in touch" />
+        <img className="content__section6-img" src={section6} alt="" />
       </div>
     </div>
   );

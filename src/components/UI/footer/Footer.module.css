@@ -43,10 +43,14 @@
 }
 
 .menu a {
-  margin: 25px 67px 0 0;
+  margin: 24px 67px 0 0;
 
   font-size: 21px;
 
   color: var(--white-color);
   text-decoration: none;
+}
+
+.menu a:last-child {
+  margin: 0;
 }
