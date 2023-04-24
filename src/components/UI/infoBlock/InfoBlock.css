@@ -1,4 +1,7 @@
 .infoBlock {
+  position: relative;
+  z-index: 2;
+
   padding: 90px 38px;
 
   display: grid;

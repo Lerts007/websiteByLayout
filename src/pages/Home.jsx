@@ -15,6 +15,16 @@ import seo from "../img/seo.svg";
 import "../style/Home.css";
 import InfoBlock from "../components/UI/infoBlock/InfoBlock";
 
+import backgroundCircle from "../img/background-circle.svg";
+import backgroundCircle2 from "../img/background-circle2.svg";
+import backgroundCircle3 from "../img/background-circle3.svg";
+import backgroundCircle4 from "../img/background-circle4.svg";
+
+import backgroundArrow from "../img/background-arrow.svg";
+import backgroundElement1 from "../img/background-element1.svg";
+import backgroundElement2 from "../img/background-element2.svg";
+import backgroundElement3 from "../img/background-element3.svg";
+
 const Home = () => {
   return (
     <div className="content">
@@ -33,6 +43,22 @@ const Home = () => {
           className="content__section1-arrow"
           src={down_arrow}
           alt="Стрелка вниз"
+        />
+        <img
+          className="content__section1-backgroundElement2"
+          src={backgroundElement2}
+        />
+        <img
+          className="content__section1-backgroundCircle2"
+          src={backgroundCircle2}
+        />
+        <img
+          className="content__section1-backgroundArrow"
+          src={backgroundArrow}
+        />
+        <img
+          className="content__section1-backgroundElement1"
+          src={backgroundElement1}
         />
       </div>
       <div className="content__section2">
@@ -60,6 +86,14 @@ const Home = () => {
             }
           />
         </div>
+        <img
+          className="content__section2-backgroundCircle"
+          src={backgroundCircle3}
+        />
+        <img
+          className="content__section2-backgroundArrow"
+          src={backgroundArrow}
+        />
       </div>
       <div className="content__section3">
         <h3 className="content__section3-h3 h3">The Installa Approach</h3>
@@ -81,6 +115,19 @@ const Home = () => {
             <Button value="Get started now" />
           </div>
         </div>
+
+        <img
+          className="content__section3-backgroundCircle4"
+          src={backgroundCircle4}
+        />
+        <img
+          className="content__section3-backgroundElement3"
+          src={backgroundElement3}
+        />
+        <img
+          className="content__section3-backgroundElement2"
+          src={backgroundElement2}
+        />
       </div>
       <div className="content__section4">
         <h3 className="content__section4-h3 h3">The Installa Solutions</h3>

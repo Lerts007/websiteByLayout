@@ -22,6 +22,8 @@
 }
 
 .content {
+  position: relative;
+  z-index: 4;
   width: 100%;
   padding: 0 140px;
 }
@@ -41,7 +43,7 @@
 }
 
 .content__section1-info-text {
-  margin-top: 28px;
+  margin-top: 32px;
 }
 
 .content__section1-info img {
@@ -69,6 +71,8 @@
 }
 
 .content__section2 {
+  position: relative;
+
   margin-top: 160px;
   display: flex;
   flex-direction: column;
@@ -89,7 +93,8 @@
 }
 
 .content__section3 {
-  margin-top: 412px;
+  position: relative;
+  margin-top: 414px;
 }
 
 .content__section3-info,
@@ -136,9 +141,6 @@
 .content__section4-info-text-p {
   margin-top: 10px;
   margin-bottom: 98px;
-}
-
-.content__section4-info-text-p br {
 }
 
 .content__section4-img {
@@ -195,4 +197,61 @@
 .content__section6-img {
   margin-top: 16px;
   margin-bottom: 68px;
+}
+
+/* Задний фон */
+.content__section1-backgroundCircle2 {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: -80px;
+}
+
+.content__section1-backgroundArrow {
+  position: absolute;
+  top: 116px;
+  left: 30px;
+}
+
+.content__section1-backgroundElement1 {
+  position: absolute;
+  top: 140px;
+  left: 348px;
+}
+.content__section1-backgroundElement2 {
+  position: absolute;
+  top: 620px;
+  left: 142px;
+}
+.content__section2-backgroundCircle {
+  position: absolute;
+  top: -12px;
+  right: -140px;
+}
+
+.content__section2-backgroundArrow {
+  position: absolute;
+  top: 422px;
+  right: -102px;
+}
+
+.content__section3-backgroundCircle4 {
+  position: absolute;
+  z-index: 50;
+
+  top: -22px;
+  left: -140px;
+}
+
+.content__section3-backgroundElement3 {
+  position: absolute;
+
+  top: -52px;
+  left: 430px;
+}
+
+.content__section3-backgroundElement2 {
+  position: absolute;
+  top: 610px;
+  right: 0;
 }
