@@ -23,6 +23,8 @@
   background: var(--red-color);
 }
 .footer2 {
+  margin-top: 12px;
+
   padding: 0 140px;
 
   display: flex;

@@ -19,6 +19,7 @@ import backgroundCircle from "../img/background-circle.svg";
 import backgroundCircle2 from "../img/background-circle2.svg";
 import backgroundCircle3 from "../img/background-circle3.svg";
 import backgroundCircle4 from "../img/background-circle4.svg";
+import backgroundCircle5 from "../img/background-circle5.svg";
 
 import backgroundArrow from "../img/background-arrow.svg";
 import backgroundElement1 from "../img/background-element1.svg";
@@ -28,6 +29,7 @@ import backgroundElement3 from "../img/background-element3.svg";
 const Home = () => {
   return (
     <div className="content">
+      {/* Секция 1 */}
       <div className="content__section1">
         <div className="content__section1-info">
           <div className="content__section1-info-text">
@@ -36,17 +38,17 @@ const Home = () => {
             <p>
               Creating impactful marketing strategies for new business horizons.
             </p>
+            <img
+              className="content__section1-info-text-backgroundElement2"
+              src={backgroundElement2}
+            />
           </div>
-          <img src={installa} />
+          <img className="content__section1-info-img" src={installa} />
         </div>
         <img
           className="content__section1-arrow"
           src={down_arrow}
           alt="Стрелка вниз"
-        />
-        <img
-          className="content__section1-backgroundElement2"
-          src={backgroundElement2}
         />
         <img
           className="content__section1-backgroundCircle2"
@@ -61,6 +63,8 @@ const Home = () => {
           src={backgroundElement1}
         />
       </div>
+
+      {/* Секция 2 */}
       <div className="content__section2">
         <h3 className="content__section2-h3 h3">Services</h3>
         <div className="content__section2-info">
@@ -95,6 +99,8 @@ const Home = () => {
           src={backgroundArrow}
         />
       </div>
+
+      {/* Секция 3 */}
       <div className="content__section3">
         <h3 className="content__section3-h3 h3">The Installa Approach</h3>
         <div className="content__section3-info info">
@@ -112,6 +118,10 @@ const Home = () => {
               well-informed business decisions regarding the overall direction
               of your business’ current, as well as future projects.
             </p>
+            <img
+              className="content__section3-info-text-backgroundElement2"
+              src={backgroundElement2}
+            />
             <Button value="Get started now" />
           </div>
         </div>
@@ -124,11 +134,9 @@ const Home = () => {
           className="content__section3-backgroundElement3"
           src={backgroundElement3}
         />
-        <img
-          className="content__section3-backgroundElement2"
-          src={backgroundElement2}
-        />
       </div>
+
+      {/* Секция 4 */}
       <div className="content__section4">
         <h3 className="content__section4-h3 h3">The Installa Solutions</h3>
         <div className="content__section4-info info">
@@ -152,6 +160,10 @@ const Home = () => {
               to the strategic business planning and marketing strategy set up
               of our client’s companies.
             </p>
+            <img
+              className="section4-info-text-backgroundElement2"
+              src={backgroundElement2}
+            />
             <Button value="More about us" />
           </div>
           <img className="content__section4-img" src={section4} alt="" />
@@ -161,7 +173,13 @@ const Home = () => {
           src={down_arrow}
           alt="Стрелка вниз"
         />
+        <img
+          className="content__section4-backgroundElement1"
+          src={backgroundElement1}
+        />
       </div>
+
+      {/* Секция 5 */}
       <div className="content__section5">
         <div className="content__section5-info">
           <InfoBlock
@@ -193,7 +211,17 @@ const Home = () => {
             }
           />
         </div>
+        <img
+          className="content__section5-backgroundCircle5"
+          src={backgroundCircle5}
+        />
+        <img
+          className="content__section5-backgroundArrow"
+          src={backgroundArrow}
+        />
       </div>
+
+      {/* Секция 6 */}
       <div className="content__section6">
         <h3 className="content__section6-h3 h3">
           Get Your Campaign Performance on Another Level!
@@ -204,6 +232,10 @@ const Home = () => {
         </p>
         <Button value="Get in touch" />
         <img className="content__section6-img" src={section6} alt="" />
+        <img
+          className="content__section6-backgroundElement3"
+          src={backgroundElement3}
+        />
       </div>
     </div>
   );
