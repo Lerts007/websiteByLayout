@@ -1,0 +1,22 @@
+.contentUS__section1-h3 {
+  margin-top: 89px;
+  margin-right: 16px;
+
+  font-size: 64px;
+}
+
+.contentUS__section1-info {
+  margin-top: 82px;
+}
+
+.contentUS__section1-info-text {
+  margin-top: 52px;
+  margin-left: 51px;
+}
+
+/* Задний фон */
+.contentUs__section1-backgroundElement1 {
+  position: absolute;
+  top: 106px;
+  right: 310px;
+}

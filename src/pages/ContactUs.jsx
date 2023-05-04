@@ -19,16 +19,17 @@ const ContactUs = () => {
           />
           <div className="contentUS__section1-info-text">
             <h4 className="contentUS__section1-info-text-h4 h4">
-              Creating Business Growth
+              Ready to take the next step and work together? Let’s do it!
             </h4>
             <p className="content__section1-info-text-p p">
-              At Installa we offer you a results-driven approach to effectively
-              reach your audience, while ensuring your brand’s relevancy on all
-              social platforms through our strategic contextual targeting
-              concepts. In addition, we optimize key KPIs like customer turnover
-              rate and sales percentage of new clients, with the means to enable
-              well-informed business decisions regarding the overall direction
-              of your business’ current, as well as future projects.
+              The digital marketing environment is highly dynamic and
+              competitive. Gain a competitive edge and advance your online
+              presence by making use of our strategic business planning,
+              innovative technology, and in-depth analysis.
+              <br /> Do not hesitate to reach out to us by filling out the
+              contact form below. Out Team will get in touch with you shortly,
+              so we can further discuss your current and further business
+              strategies.
             </p>
           </div>
         </div>
@@ -41,7 +42,7 @@ const ContactUs = () => {
           src={backgroundArrow}
         />
         <img
-          className="content__section1-backgroundElement1"
+          className="contentUs__section1-backgroundElement1"
           src={backgroundElement1}
         />
       </div>
