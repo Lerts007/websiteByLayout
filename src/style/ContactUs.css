@@ -1,17 +1,44 @@
-.contentUS__section1-h3 {
+/* Секция 1 */
+.contentUs__section1-h3 {
   margin-top: 89px;
   margin-right: 16px;
 
   font-size: 64px;
 }
 
-.contentUS__section1-info {
+.contentUs__section1-info {
   margin-top: 82px;
+  margin-bottom: 111px;
 }
 
-.contentUS__section1-info-text {
+.contentUs__section1-info-text {
   margin-top: 52px;
   margin-left: 51px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contentUs__section1-info-text-backgroundElement2 {
+  margin-top: 12px;
+}
+
+/* Секция 2 */
+.contentUs__section2 {
+  margin-top: 162px;
+}
+
+.contentUs__section2-h3 {
+  margin-right: 26px;
+}
+
+.contentUs__section2-form {
+  margin-top: 76px;
+
+  display: grid;
+  grid-template-areas: "a b" "c c" "d d";
+  row-gap: 45px;
+  column-gap: 58px;
 }
 
 /* Задний фон */
