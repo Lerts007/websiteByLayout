@@ -75,7 +75,12 @@ const ContactUs = () => {
           <InputForm value="Your name*" gridArea={"a"} />
           <InputForm value="Your email*" gridArea={"b"} />
           <InputForm value="Subject*" gridArea={"c"} />
-          <InputForm value="Your message*" gridArea={"d"} height={"328px"} />
+
+          <textarea
+            className="contentUs__section2-form-textarea"
+            placeholder="Your message*"
+          ></textarea>
+          {/* <InputForm value="Your message*" gridArea={"d"} height={"328px"} /> */}
         </div>
       </div>
     </div>

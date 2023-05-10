@@ -41,6 +41,28 @@
   column-gap: 58px;
 }
 
+.contentUs__section2-form-textarea {
+  padding: 0 35px 0 35px;
+  grid-area: d;
+
+  border: 1px solid var(--red-color);
+  border-radius: 20px;
+
+  background: rgba(232, 80, 91, 0.05);
+
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  color: var(--lightRed-color);
+
+  resize: none;
+}
+
+.contentUs__section2-form-textarea::placeholder {
+  color: var(--lightRed-color);
+}
+
 /* Задний фон */
 .contentUs__section1-backgroundElement1 {
   position: absolute;
